@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Scroll Percentage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head><body>
+<!-- START -->
+
+<!-- bar -->
+<div class="h-2 bg-gray-400 w-full fixed top-0">
+    <div class="bg-yellow-300 h-full w-0" id="bar"></div>
+</div>
+    
+<!-- heading -->
+<h1 class="text-center m-4 text-3xl underline pt-2">Scroll Percentage</h1>
+
+<!-- pie chart -->
+<div id="pieChart" class="h-16 aspect-square bg-yellow-400 fixed bottom-5 right-5 rounded-full flex justify-center items-center">
+    0%
+</div>
+
+<!-- paragraph -->
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">HOME</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">ABOUT</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">SERVICES</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">GALLERY</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">NEWS</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">FAQs</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<section class="mx-5">
+    <h2 class="text-2xl py-2">CONTACT</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem ad provident sunt itaque aperiam vero reiciendis veritatis soluta, ex non! Laudantium magnam, totam rem assumenda nulla recusandae corporis exercitationem dolorem numquam excepturi nobis qui blanditiis accusantium eveniet maxime nisi et quos. Nemo, ducimus ex. Eius quam reprehenderit quidem quas earum laborum qui aliquam, repellat deleniti. Optio expedita animi voluptates dicta eius ratione earum assumenda fugiat, vitae adipisci eaque, autem ipsum, maxime error debitis velit aut quos porro sit aliquam! Quibusdam sapiente ea neque sequi, optio doloremque voluptate sint perferendis qui reprehenderit aut similique adipisci quidem voluptatem natus saepe possimus.
+    </p>
+    <hr class="my-3">
+</section>
+
+<!-- back -->
+<a href="#">
+    <div class="h-16 bg-yellow-300 cursor-pointer flex items-center justify-center">
+        Back to Top
+    </div>
+</a>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
